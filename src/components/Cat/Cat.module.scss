@@ -1,173 +1,173 @@
-    .container {
-        width: 22rem;
-        height: 32rem;
-        margin-right: 60px;
-        border: solid #1698d9;
-        border-radius: 10px;
-        background-color: #fff;
-        cursor: pointer;
-        // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
+.container {
+    width: 22rem;
+    height: 32rem;
+    margin-right: 60px;
+    border: solid #1698d9;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
 
-        @media(max-width: 1024px) {
-            &:nth-child(3n) {
-                margin: 60px 0 0 180px;
-            }
+    @media(max-width: 1024px) {
+        &:nth-child(3n) {
+            margin: 60px 0 0 180px;
         }
     }
+}
 
-    .container2 {
-        width: 22rem;
-        height: 32rem;
-        margin-right: 60px;
-        border: solid red;
-        border-radius: 10px;
-        background-color: #fff;
-        cursor: pointer;
-        // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
+.container2 {
+    width: 22rem;
+    height: 32rem;
+    margin-right: 60px;
+    border: solid red;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
 
-        @media(max-width: 1024px) {
-            &:nth-child(3n) {
-                margin: 60px 0 0 180px;
-            }
+    @media(max-width: 1024px) {
+        &:nth-child(3n) {
+            margin: 60px 0 0 180px;
         }
     }
+}
 
-    .containerfalse {
-        opacity: 0.5;
-        width: 22rem;
-        height: 32rem;
-        margin-right: 60px;
-        border: solid grey;
-        border-radius: 10px;
-        background-color: #fff;
-        cursor: pointer;
-        // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
+.containerfalse {
+    opacity: 0.5;
+    width: 22rem;
+    height: 32rem;
+    margin-right: 60px;
+    border: solid grey;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
 
-        @media(max-width: 1024px) {
-            &:nth-child(3n) {
-                margin: 60px 0 0 180px;
-            }
+    @media(max-width: 1024px) {
+        &:nth-child(3n) {
+            margin: 60px 0 0 180px;
         }
     }
+}
 
-    .wrapper {
-        cursor: not-allowed;
-    }
+.wrapper {
+    cursor: not-allowed;
+}
 
 
 
 
-    .itemcontainer {
-        width: 60%;
-        margin: 0 auto;
-        display: flex;
+.itemcontainer {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
 
-        @media(max-width: 1024px) {
-            width: 52rem;
-            flex-wrap: wrap;
+    @media(max-width: 1024px) {
+        width: 52rem;
+        flex-wrap: wrap;
 
-            &:nth-child(2n) {
-                margin-left: 160px;
-            }
+        &:nth-child(2n) {
+            margin-left: 160px;
         }
     }
+}
 
-    .weight {
-        width: 80px;
-        height: 80px;
-        background-color: #1698d9;
-        position: absolute;
-        margin-top: -6rem;
-        margin-left: 15rem;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        color: red;
-    }
-
-
-    .weightfalse {
-        width: 80px;
-        height: 80px;
-        background-color: grey;
-        position: absolute;
-        margin-top: -6rem;
-        margin-left: 15rem;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        color: red;
-    }
-
-    .label {
-        margin: 10px 0 0 40px;
-        color: white;
-    }
-
-    .labelfalse {
-        margin: 10px 0 0 40px;
-        color: yellow;
-    }
-
-    .labelSelected {
-        font-size: 13px;
-        width: 25rem;
-        margin: 10px 0 0 5px;
-        color: white;
-    }
-
-    .buy {
-        color: aqua;
-    }
-
-    .weightcolor {
-        color: #ffffff;
-        font-family: "Trebuchet MS";
-        font-size: 42px;
-    }
-
-    .weightkg {
-        color: #ffffff;
-        font-family: "Trebuchet MS";
-        font-size: 21px;
-        position: relative;
-        bottom: 5px;
-    }
+.weight {
+    width: 80px;
+    height: 80px;
+    background-color: #1698d9;
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 15rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+}
 
 
-    .title {
-        width: 16rem;
-        margin: 10px 0 0 50px;
-        height: 26px;
-        color: grey;
-    }
+.weightfalse {
+    width: 80px;
+    height: 80px;
+    background-color: grey;
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 15rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+}
 
-    .img {
-        margin-top: 45px;
-    }
+.label {
+    margin: 10px 0 0 40px;
+    color: white;
+}
 
-    .imgSelected {
-        margin-top: 38px;
-    }
+.labelfalse {
+    margin: 10px 0 0 40px;
+    color: yellow;
+}
 
-    .with {
-        width: 10rem;
-        color: black;
-        font-size: 25px;
-        margin-left: 45px;
-        font-weight: 700;
-    }
+.labelSelected {
+    font-size: 13px;
+    width: 25rem;
+    margin: 10px 0 0 5px;
+    color: white;
+}
 
-    .name {
-        width: 15rem;
-        color: black;
-        font-size: 45px;
-        margin-left: 45px;
-        font-weight: 700;
-    }
+.buy {
+    color: aqua;
+}
+
+.weightcolor {
+    color: #ffffff;
+    font-family: "Trebuchet MS";
+    font-size: 42px;
+}
+
+.weightkg {
+    color: #ffffff;
+    font-family: "Trebuchet MS";
+    font-size: 21px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+.title {
+    width: 16rem;
+    margin: 10px 0 0 50px;
+    height: 26px;
+    color: grey;
+}
+
+.img {
+    margin-top: 45px;
+}
+
+.imgSelected {
+    margin-top: 38px;
+}
+
+.with {
+    width: 10rem;
+    color: black;
+    font-size: 25px;
+    margin-left: 45px;
+    font-weight: 700;
+}
+
+.name {
+    width: 15rem;
+    color: black;
+    font-size: 45px;
+    margin-left: 45px;
+    font-weight: 700;
+}

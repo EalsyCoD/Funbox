@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cats, Catss } from 'src/types';
+import { Catss } from 'src/types';
 import cat from '../../assets/cat.png'
 import styles from './Cat.module.scss'
 export interface Props {
@@ -9,7 +9,9 @@ export interface Props {
 const Item: React.FC<Props> = ({ data }) => {
     const [selected, setSelected] = React.useState(data.status)
     const [datas, setData] = React.useState(data)
-
+    const title = React.useRef<any>('')
+    const color = React.useRef<any>('')
+    // const mainWrapper = React.useRef<any>('')
     const handleSelected = () => {
         if (selected === 'Selected') {
             setSelected('notSelected')
@@ -20,22 +22,23 @@ const Item: React.FC<Props> = ({ data }) => {
         }
     }
 
-    const MouseEnter = (mode1: any, text: string) => {
-        const mode = mode1
-        if (selected === "selected" && mode === "MouseEnter") {
-            data.title = text
+    const MouseEnter = (mode: string, text: string) => {
+        if (selected === "Selected" && mode === "MouseEnter") {
+            title.current.innerHTML = text
+            title.current.style.color = "#e62e7a";
         }
         if (mode === "MouseLeave") {
-            data.title = data.title
+            title.current.innerHTML = data.title
+            title.current.style.color = "#666";
         }
     }
 
     return (
         <React.Fragment>
             {selected === "notSelected" && (
-                <div onMouseLeave={() => MouseEnter("MouseLeave", data.title)} onMouseEnter={() => MouseEnter("MouseEnter", data.titleSelectedHover)} onClick={handleSelected} className={styles.container}>
+                <div onClick={handleSelected} className={styles.container}>
                     <div>
-                        <p className={styles.title}>{datas.title}</p>
+                        <p className={styles.title} ref={title}>{datas.title}</p>
                         <p className={styles.name}>{datas.name}</p>
                         <p className={styles.with}>{datas.stuffing}</p>
                         <p className={styles.title}>{datas.portionCount} порций<br />{datas.gift[0]},<br />{datas.gift[1]}</p>
@@ -81,9 +84,13 @@ const Item: React.FC<Props> = ({ data }) => {
                             </div>
                         ) || (
                                 <React.Fragment>
-                                    <div onClick={handleSelected} className={styles.container2}>
+                                    <div
+                                        onClick={handleSelected}
+                                        onMouseEnter={() => MouseEnter("MouseEnter", data.titleSelectedHover)}
+                                        onMouseLeave={() => MouseEnter("MouseLeave", data.title)}
+                                        className={styles.container2}>
                                         <div>
-                                            <p className={styles.title}>{datas.title}</p>
+                                            <p className={styles.title} ref={title}>{datas.title}</p>
                                             <p className={styles.name}>{datas.name}</p>
                                             <p className={styles.with}>{datas.stuffing}</p>
                                             <p className={styles.title}>{datas.portionCount} порций<br />{datas.gift[0]},<br />{datas.gift[1]}</p>
