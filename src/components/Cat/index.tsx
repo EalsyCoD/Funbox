@@ -6,7 +6,7 @@ import { Item } from './item'
 const item = {
     items: [
         {
-            id: 1,
+            id: 0,
             title: "Сказочное заморское яство",
             titleSelectedHover: "Котэ не одобряет?",
             name: "Нямушка",
@@ -18,7 +18,7 @@ const item = {
             selectedText: "Печень утки разварная с артишоками."
         },
         {
-            id: 2,
+            id: 1,
             title: "Сказочное заморское яство",
             titleSelectedHover: "Котэ не одобряет?",
             name: "Нямушка",
@@ -30,7 +30,7 @@ const item = {
             selectedText: "Головы щучьи с чесноком да свежайшая сёмгушка."
         },
         {
-            id: 3,
+            id: 2,
             title: "Сказочное заморское яство",
             titleSelectedHover: "Котэ не одобряет?",
             name: "Нямушка",
