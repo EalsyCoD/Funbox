@@ -15,6 +15,23 @@
         }
     }
 
+    .container2 {
+        width: 22rem;
+        height: 32rem;
+        margin-right: 60px;
+        border: solid red;
+        border-radius: 10px;
+        background-color: #fff;
+        cursor: pointer;
+        // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
+
+        @media(max-width: 1024px) {
+            &:nth-child(3n) {
+                margin: 60px 0 0 180px;
+            }
+        }
+    }
+
     .containerfalse {
         opacity: 0.5;
         width: 22rem;
@@ -89,13 +106,20 @@
     }
 
     .label {
-        margin: 0px 0 0 40px;
+        margin: 10px 0 0 40px;
         color: white;
     }
 
     .labelfalse {
-        margin: 0px 0 0 40px;
+        margin: 10px 0 0 40px;
         color: yellow;
+    }
+
+    .labelSelected {
+        font-size: 13px;
+        width: 25rem;
+        margin: 10px 0 0 5px;
+        color: white;
     }
 
     .buy {
@@ -126,6 +150,10 @@
 
     .img {
         margin-top: 45px;
+    }
+
+    .imgSelected {
+        margin-top: 38px;
     }
 
     .with {

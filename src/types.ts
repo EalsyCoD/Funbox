@@ -15,7 +15,7 @@ export type Cats = {
     portionCount: number,
     gift: string[],
     weight: string,
-    status: boolean,
+    status: string,
     selectedText: string
 }
 
@@ -29,6 +29,6 @@ export type Catss = {
     portionCount: number,
     gift: string[],
     weight: string,
-    status: boolean,
+    status: string,
     selectedText: string
 }

@@ -14,8 +14,7 @@ const item = {
             portionCount: 10,
             gift: ["мышь в подарок"],
             weight: "0,5",
-            noselected: true,
-            status: true,
+            status: "notSelected",
             selectedText: "Печень утки разварная с артишоками."
         },
         {
@@ -27,8 +26,7 @@ const item = {
             portionCount: 40,
             gift: ["2 мыши в подарок"],
             weight: "2",
-            noselected: false,
-            status: true,
+            status: "Selected",
             selectedText: "Головы щучьи с чесноком да свежайшая сёмгушка."
         },
         {
@@ -40,8 +38,7 @@ const item = {
             portionCount: 100,
             gift: ["5 мышей в подарок", "заказчик доволен"],
             weight: "5",
-            noselected: false,
-            status: false,
+            status: "disabled",
             selectedText: "Филе из цыплят с трюфелями в бульоне."
         }
     ]
