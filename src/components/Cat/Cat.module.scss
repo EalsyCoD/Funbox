@@ -1,0 +1,145 @@
+    .container {
+        width: 22rem;
+        height: 32rem;
+        margin-right: 60px;
+        border: solid #1698d9;
+        border-radius: 10px;
+        background-color: #fff;
+        cursor: pointer;
+        // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
+
+        @media(max-width: 1024px) {
+            &:nth-child(3n) {
+                margin: 60px 0 0 180px;
+            }
+        }
+    }
+
+    .containerfalse {
+        opacity: 0.5;
+        width: 22rem;
+        height: 32rem;
+        margin-right: 60px;
+        border: solid #1698d9;
+        border-radius: 10px;
+        background-color: #fff;
+        cursor: pointer;
+        // clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px);
+
+        @media(max-width: 1024px) {
+            &:nth-child(3n) {
+                margin: 60px 0 0 180px;
+            }
+        }
+    }
+
+    .wrapper {
+        cursor: not-allowed;
+    }
+
+
+
+
+    .itemcontainer {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+
+        @media(max-width: 1024px) {
+            width: 52rem;
+            flex-wrap: wrap;
+
+            &:nth-child(2n) {
+                margin-left: 160px;
+            }
+        }
+    }
+
+    .weight {
+        width: 80px;
+        height: 80px;
+        background-color: #1698d9;
+        position: absolute;
+        margin-top: -6rem;
+        margin-left: 15rem;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        color: red;
+    }
+
+
+    .weightfalse {
+        width: 80px;
+        height: 80px;
+        background-color: grey;
+        position: absolute;
+        margin-top: -6rem;
+        margin-left: 15rem;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        color: red;
+    }
+
+    .label {
+        margin: 0px 0 0 40px;
+        color: white;
+    }
+
+    .labelfalse {
+        margin: 0px 0 0 40px;
+        color: yellow;
+    }
+
+    .buy {
+        color: aqua;
+    }
+
+    .weightcolor {
+        color: #ffffff;
+        font-family: "Trebuchet MS";
+        font-size: 42px;
+    }
+
+    .weightkg {
+        color: #ffffff;
+        font-family: "Trebuchet MS";
+        font-size: 21px;
+        position: relative;
+        bottom: 5px;
+    }
+
+
+    .title {
+        width: 16rem;
+        margin: 10px 0 0 50px;
+        height: 26px;
+        color: grey;
+    }
+
+    .img {
+        margin-top: 45px;
+    }
+
+    .with {
+        width: 10rem;
+        color: black;
+        font-size: 25px;
+        margin-left: 45px;
+        font-weight: 700;
+    }
+
+    .name {
+        width: 15rem;
+        color: black;
+        font-size: 45px;
+        margin-left: 45px;
+        font-weight: 700;
+    }
