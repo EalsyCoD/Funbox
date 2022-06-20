@@ -1,0 +1,225 @@
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.module.scss ***!
+  \****************************************************************************************************************/
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+  font-size: 15px;
+}
+/*!*****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Cat/Cat.module.scss ***!
+  \*****************************************************************************************************************************/
+.y_WrxrcUG1ahrADvHBaR {
+  width: 22rem;
+  height: 32rem;
+  margin-right: 60px;
+  border: solid #1698d9;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .y_WrxrcUG1ahrADvHBaR:nth-child(3n) {
+    margin: 60px 0 0 180px;
+  }
+}
+@media (max-width: 768px) {
+  .y_WrxrcUG1ahrADvHBaR {
+    margin-left: -8rem;
+  }
+  .y_WrxrcUG1ahrADvHBaR:nth-child(3n) {
+    margin-right: 100px;
+  }
+}
+
+.MSUE7guMO20Usvl0WOAx {
+  width: 22rem;
+  height: 32rem;
+  margin-right: 60px;
+  border: solid red;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .MSUE7guMO20Usvl0WOAx:nth-child(3n) {
+    margin: 60px 0 0 180px;
+  }
+}
+
+.u6LhtbcIhwLvQIbHCr01 {
+  opacity: 0.5;
+  width: 22rem;
+  height: 32rem;
+  margin-right: 60px;
+  border: solid grey;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .u6LhtbcIhwLvQIbHCr01:nth-child(3n) {
+    margin: 60px 0 0 180px;
+  }
+}
+@media (max-width: 768px) {
+  .u6LhtbcIhwLvQIbHCr01:nth-child(3n) {
+    margin-left: 6rem;
+  }
+}
+
+.odW6VtRBgE3ZgRj3l2Xa {
+  cursor: not-allowed;
+}
+
+.jOmTdoIRGeXNrthDVX8r {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .jOmTdoIRGeXNrthDVX8r {
+    width: 52rem;
+    flex-wrap: wrap;
+  }
+  .jOmTdoIRGeXNrthDVX8r:nth-child(2n) {
+    margin-left: 160px;
+  }
+}
+
+.DIRFBgXqUt95EooQBVDA {
+  width: 80px;
+  height: 80px;
+  background-color: #1698d9;
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 15rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: red;
+}
+
+.dmAcpG_nCwdHno5Q9lOL {
+  width: 80px;
+  height: 80px;
+  background-color: grey;
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 15rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: red;
+}
+
+.iFolO0oI63ciXUMJwX5q {
+  margin: 10px 0 0 40px;
+  color: white;
+}
+
+.pIi4h5K3TdQVRCRdkPQT {
+  margin: 15px 0 0 55px;
+  color: yellow;
+}
+
+.FCMWSlNqjoewgLJNtsYd {
+  font-size: 13px;
+  width: 25rem;
+  margin: 10px 0 0 5px;
+  color: white;
+}
+
+.gUo8KG5Usw_NBqEooVAi {
+  color: aqua;
+}
+
+.L6F7n_laccagIicn_MRd {
+  color: #ffffff;
+  font-family: "Trebuchet MS";
+  font-size: 42px;
+}
+
+.QekKSDGCvWdx9qCl4mfM {
+  color: #ffffff;
+  font-family: "Trebuchet MS";
+  font-size: 21px;
+  position: relative;
+  bottom: 5px;
+}
+
+.z6GO4wzfolhC0HQyC_x4 {
+  width: 16rem;
+  margin: 10px 0 0 50px;
+  height: 26px;
+  color: grey;
+}
+
+.woutvF_WprP3bj6zX5Ol {
+  margin-top: 45px;
+}
+
+.eHxMA1YXT3qzr6yvSwMI {
+  margin-top: 38px;
+}
+
+.L2Ubd_VitS0sHFtGk4Tk {
+  width: 10rem;
+  color: black;
+  font-size: 25px;
+  margin-left: 45px;
+  font-weight: 700;
+}
+
+.EeFgWPmwZFT56u554MNP {
+  width: 15rem;
+  color: black;
+  font-size: 45px;
+  margin-left: 45px;
+  font-weight: 700;
+}
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/Header.module.scss ***!
+  \***********************************************************************************************************************************/
+.mTFHSVjnSUFdoSnWwGhe {
+  width: 35rem;
+  margin: 100px auto;
+}
+@media (max-width: 1440px) {
+  .mTFHSVjnSUFdoSnWwGhe {
+    margin-left: 40rem;
+  }
+}
+@media (max-width: 1024px) {
+  .mTFHSVjnSUFdoSnWwGhe {
+    margin-left: 20rem;
+  }
+}
+@media (max-width: 768px) {
+  .mTFHSVjnSUFdoSnWwGhe {
+    margin-left: 13rem;
+  }
+}
+
+.X77jCI7sgjXhRwLBzrnp {
+  width: 200px;
+  font-size: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 100;
+  text-shadow: 0px 1px 1px #000000;
+}
+
+/*# sourceMappingURL=styles.css.map*/

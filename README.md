@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# FunBox
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Usage
 
-## Available Scripts
+`npm i`
 
-In the project directory, you can run:
+`npm start`
 
-### `npm start`
+## Eslint
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`npm run lint`
+`npm run lint:fix`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Answers:
 
-### `npm test`
+01. Расскажите, чем, на ваш взгляд, отличается хорошая верстка от плохой с точки зрения
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Пользователя
+* Менеджера проекта
+* Дизайнера
+* Верстальщика
+* Клиентского программиста
+* Серверного программиста
 
-### `npm run build`
+Пользователя: Пользователь не должен получать затруднений в использовании каких-либо интерактивных элементов, загрузка должна происходить быстро.  Интерфейс не должен разъезжаться, элементы не должны друг друга перекрывать и мешать просмотру контента или взаимодействию с элементами страницы. Само собой, сайт/приложение/интерфейс должны корректно отображаться во всех браузерах и на всех устройствах.
+Менеджера проекта: Вёрстка должна соответствовать ТЗ и код должен быть читаемым.
+Дизайнера: Хороший, продуманный дизайн, чтобы у верстальщика было меньше вопросов.
+Верстальщика: Вёрстка должна быть читаемая, в едином стили всего кода, и должна быть адаптированна для всех устройств.
+Клиентского программиста: Вёрстка должна быть так же удобно читаемая.
+Серверного программиста: Возможно чтобы не было лишних запросов.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+02. Опишите основные особенности верстки крупных многостраничных сайтов, дизайн которых может меняться в процессе реализации и поддержки. Расскажите о своем опыте верстки подобных сайтов: какие методологии, инструменты и технологии вы применяли на практике.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Чтобы компоненты можно было переиспользовать. Использовать переменные, чтобы можно было быстро изменить нужный стиль и он поменялся в других местах.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Можно использовать для крупных проектов методологии такие как БЭМ, чтобы избегать дублированние стилей. Так же Agile.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+03. Опишите основные особенности верстки сайтов, которые должны одинаково хорошо отображаться как на любом современном компьютере, так и на смартфонах и планшетах под управлением iOS и Android. Расскажите о своем опыте верстки подобных сайтов: какие инструменты и технологии вы применяли, как проверяли результат на различных устройствах, какие именно устройства требовалось поддерживать.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Сначала можно тестировать в консоли разработчика, далее на реальных смартфонах, ноутбуках и т.п. Из особенностей вёрстки можно выделить сначала адаптацию под смартфон, далее под пк.Так же можно протестировать в разных браузерах, потому что бывает что выглядит на разных браузерах по разному.
+Из адаптации я использовал медиа-запросы. Так же нужно задавать размеры картинкам, чтобы при загрузке страницы не было эффекта прыгающего скролла. Нужно учитывать читаемость шрифтов.
+Так же могу отметить адаптацию сначала на мобильные устройства, и по возрастанию(Mobile First Design).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+04. Расскажите, какие инструменты помогают вам экономить время в процессе написания, проверки и отладки кода.
 
-## Learn More
+В JavaScript можно использовать console.log() чтобы отслеживать где ошибка. В TypeScript правильно раставленные типы дают подсказки где и что можно использовать.
+Хорошая компоновка файлов, так же экономит время чтобы сразу знать где и что находится.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+05. Вам нужно понять, почему страница отображается некорректно в Safari на iOS и в IE на Windows. Код писали не вы, доступа к исходникам у вас нет. Ваши действия? Сталкивались ли вы с подобными проблемами на практике?
+
+С такими проблемами не сталкивался. Если доступа к исходникам нет, то использовал бы консоль разработчика, далее искал бы где проблема.
+
+06. Дизайнер отдал вам макет, в котором не показано, как должны выглядеть интерактивные элементы при наведении мыши. Ваши действия?
+
+Если есть возможность спросить у дизайнера то уточнил бы у его как и что должно выглядеть. Если нет возможности, то можно использовать интуитивно понятные свойства.
+Если нет, то можно сделать что-то попроще, а далее уже когда появится возможность то спросить у дизайнера.
+
+07. Какие ресурсы вы используете для развития в профессиональной сфере? Приведите несколько конкретных примеров (сайты, блоги и так далее). Какое направление развития вам более близко: JS-программирование, HTML/CSS- верстка или и то, и другое? Какие ещё области знаний, кроме тех, что непосредственно относятся к работе, вам интересны?
+
+Для развития использую Hubr слежу за новостями, так же читаю про патерны проектирования, так же просматриваю гитхаб репозитории, иногда смотрю туториалы и читаю документации, по тем библиотекам которые не использовал но хотелось бы.
+Подписан на разные телеграмм каналы по программированию на JS/HTML/CSS там можно узнать про разные фичы языка.
+
+Более импанирует JS-программирование.
+
+1. https://github.com/EalsyCoD/REST-Countreis-API
+2. https://github.com/EalsyCoD/List-Users
+3. https://github.com/EalsyCoD/Saved-Searches
+
+
+### Coded by [EalsyCoD](https://github.com/EalsyCoD)

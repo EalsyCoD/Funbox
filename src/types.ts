@@ -19,7 +19,6 @@ export type Cats = {
     selectedText: string
 }
 
-
 export type Catss = {
     id: number,
     title: string,

@@ -1,32 +1,32 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./",
-    "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "downlevelIteration": true,
-    "importHelpers": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "target": "es2017",
-    "module": "es2020",
-    "lib": [
-      "dom",
-      "es2020"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "strict": true,
-    "noFallthroughCasesInSwitch": false,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react"
-  },
-  "include": [
-    "src"
-  ]
+    "compilerOptions": {
+        "baseUrl": "./",
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "target": "es2017",
+        "module": "es2020",
+        "lib": [
+            "dom",
+            "es2020"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "noFallthroughCasesInSwitch": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "jsx": "react"
+    },
+    "include": [
+        "src"
+    ]
 }
